@@ -1,0 +1,9 @@
+<IfModule authz_core_module>
+    Require all denied
+    RewriteEngine On
+    RewriteCond $1 !^(index\.php|images|robots\.txt)
+    RewriteRule ^(.*)$ /index.php/$1 [L]
+</IfModule>
+<IfModule !authz_core_module>
+    Deny from all
+</IfModule>
