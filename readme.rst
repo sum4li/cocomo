@@ -4,7 +4,7 @@ COCOMO (Constructive Cost Model)
 
 COCOMO adalah sebuah model yang didesain oleh Barry Boehm untuk memperoleh perkiraan dari jumlah orang-bulan yang diperlukan untuk mengembangkan suatu produk perangkat lunak. Satu hasil observasi yang paling penting dalam model ini adalah bahwa motivasi dari tiap orang yang terlibat ditempatkan sebagai titik berat. Hal ini menunjukkan bahwa kepemimpinan dan kerja sama tim merupakan sesuatu yang penting, namun demikian poin pada bagian ini sering diabaikan. 
 
-![alt text](https://github.com/sum4li/cocomo/blob/master/screenshot/login.png)
+![](screenshot/login.png)
 
 *******************
 Informasi
