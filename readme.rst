@@ -8,31 +8,31 @@ COCOMO adalah sebuah model yang didesain oleh Barry Boehm untuk memperoleh perki
 Informasi
 *******************
 
-Ini adalah sebuah implementasi COCOMO 
-
-**************************
-Changelog and New Features
-**************************
-
-You can find a list of all changes for each release in the `user
-guide change log <https://github.com/bcit-ci/CodeIgniter/blob/develop/user_guide_src/source/changelog.rst>`_.
+Ini adalah sebuah implementasi COCOMO untuk skripsi perkuliah teknik informatika yang dibangun dengan Codeigniter 3
 
 *******************
-Server Requirements
+System Requirement
 *******************
 
-PHP version 5.4 or newer is recommended.
+- PHP v 5.4 keatas
+- Mysql Database
 
-It should work on 5.2.4 as well, but we strongly advise you NOT to run
-such old versions of PHP, because of potential security and performance
-issues, as well as missing features.
+*******************
+Fitur
+*******************
+
+- Register, Login User
+- hitung function point (FP)
+- htiung TDI
+- hitung Estimasi Biaya (Effort, Person, Time)
+- history Penghitungan Aplikasi
+
 
 ************
 Installation
 ************
 
-1
-
-*******
-License
-*******
+1. Download atau clone ke server anda atau htdocs (local server)
+2. Buat database dengan nama cocomo
+3. Import database cocomo.sql di root folder
+4. Selamat Mencoba
