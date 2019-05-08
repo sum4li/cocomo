@@ -37,8 +37,7 @@ class User extends CI_Controller
                         'status'=>'login'
                     );                    
                 $this->session->set_userdata($session);                
-                redirect('user/login');                
-//                print_r($this->session->userdata());
+                redirect('dashboard');                
             }else{
                 $msg=array(
                     'msg'=>'<p class="text-danger">Maaf <strong>Username</strong> atau <strong>Password</strong> tidak tepat</p>',                    

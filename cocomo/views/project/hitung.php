@@ -28,7 +28,7 @@
             <div class="box box-warning">
                 <div class="box-body">                    
                     <h3>Effort</h3>
-                    <p class="text-justify text-muted">Hasil perkiraan effort dari aplikasi yang akan anda buat</p>
+                    <p class="text-justify text-muted">Hasil perkiraan effort dari aplikasi yang akan anda buat<br><br></p>
                     <h3 class="text-warning">
                     <?php echo $e; ?> PM (Person-Month)
                     </h3>

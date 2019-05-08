@@ -24,7 +24,7 @@ class Dashboard extends CI_Controller
     }
     //fungsi halam awal untuk dasboard daftar project yg telah dibuat
     public function index(){
-        print_r($_SESSION);
+        
         $data['title']='COCOMO | Beranda';        
         $data['daftar_project']=$this->model->daftar_project($this->session->id_user,'desc');                
         $data['biaya']=$this->model;                
